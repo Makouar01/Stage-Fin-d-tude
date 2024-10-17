@@ -26,6 +26,26 @@ Génération de rapport PDF : L'administrateur peut générer un rapport en PDF 
 <img width="785" alt="image" src="https://github.com/user-attachments/assets/af065a57-4449-4a65-b84a-a0f8f1dcd232">
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/4b06c966-0d52-495c-ba34-ff9999bbee16">
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/55af18ba-4a74-4821-9e67-83c919953263">
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/e63d2810-d7fe-4ec8-8ece-3c502109578b">
+<img width="721" alt="image" src="https://github.com/user-attachments/assets/22f88ada-ae44-49b8-b220-1da0853e0377">
+
+# Explication des fonctionnalités
+* Gestion des demandes :
+
+L'admin voit la liste des demandes d'emprunt. Il peut approuver ou refuser chaque demande en cliquant sur un bouton. L'état de la demande est alors mis à jour dans la base de données.
+Gestion des professeurs et étudiants :
+
+L'admin peut gérer les comptes des utilisateurs. Il peut les ajouter, modifier ou supprimer en accédant à des formulaires dédiés.
+Suivi des emprunts :
+
+L'admin peut voir une liste des matériels empruntés par les utilisateurs. Cette liste affiche les informations sur l'utilisateur, le matériel, la date de début et de fin de l'emprunt, ainsi que son statut.
+Importation CSV des étudiants :
+
+L'admin peut importer un fichier CSV pour ajouter plusieurs étudiants à la fois. Le système lit le fichier, extrait les données, et les enregistre dans la base de données.
+Génération de rapports PDF :
+
+Un bouton "Générer PDF" permet de créer un rapport contenant tous les emprunts effectués sur une période donnée. Le fichier PDF est téléchargeable et peut être utilisé à des fins administratives.
+
 
 
 
@@ -34,7 +54,18 @@ Génération de rapport PDF : L'administrateur peut générer un rapport en PDF 
 
 Demande de matériel : Les professeurs peuvent soumettre des demandes d'emprunt de matériel pour une période donnée.
 Modification de profil : Chaque professeur peut modifier ses informations personnelles telles que le mot de passe et l'adresse email.
-Accès étudiant :
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/917236d1-1485-4dd2-b704-721dceb620df">
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/505d3b84-677b-473f-b060-1034de012d05">
+<img width="745" alt="image" src="https://github.com/user-attachments/assets/fc8256b1-c46a-490a-99b0-b5712b2a7c61">
+
+
+* Accès étudiant :
 
 Consultation du profil : Les étudiants peuvent consulter leurs informations personnelles ainsi que les matériels empruntés et leurs statuts.
 Emprunt de matériel : Les étudiants peuvent faire des demandes d'emprunt de matériel sous réserve d'approbation par l'administrateur.
+
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/aad2dcf0-a7e9-4461-9cc3-d9421335c25c">
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/8bf20586-2b9a-4b93-8d6d-c94cdb4a4c58">
+
+
+

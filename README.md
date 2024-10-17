@@ -2,14 +2,16 @@
 
 
 * Description
+Ce projet est une application web réalisée en PHP permettant la gestion des matériels au sein d'une université. Elle propose trois niveaux d'accès : Admin, Professeur, et Étudiant.
+      - Chaque rôle a des fonctionnalités spécifiques pour gérer les demandes de matériel et suivre les emprunts.
 
-  - L'authentification basée sur les sessions est un mécanisme courant pour gérer la connexion des utilisateurs dans les applications web. Lorsqu'un utilisateur soumet ses identifiants (généralement un nom d'utilisateur et un mot de passe), le serveur vérifie ces informations en les comparant à celles stockées dans une base de données. Si elles sont correctes, le serveur crée une session unique pour l'utilisateur, identifiée par un identifiant de session (session ID) généré de manière aléatoire.
+
+L'authentification basée sur les sessions est un mécanisme courant pour gérer la connexion des utilisateurs dans les applications web. Lorsqu'un utilisateur soumet ses identifiants (généralement un nom d'utilisateur et un mot de passe), le serveur vérifie ces informations en les comparant à celles stockées dans une base de données. Si elles sont correctes, le serveur crée une session unique pour l'utilisateur, identifiée par un identifiant de session (session ID) généré de manière aléatoire.
 
 Cet identifiant est ensuite stocké dans un cookie sur le navigateur de l'utilisateur. À chaque requête ultérieure vers le serveur, le navigateur envoie automatiquement le cookie contenant l'ID de session. Le serveur vérifie cet ID pour identifier l'utilisateur, maintenir son état de connexion, et lui accorder l'accès aux ressources protégées.
 
 Les sessions sont généralement stockées sur le serveur (dans la mémoire ou une base de données), et elles expirent après une certaine période d'inactivité pour des raisons de sécurité. Ce système permet de s'assurer que l'utilisateur reste authentifié sur plusieurs pages de l'application sans avoir à se reconnecter à chaque fois.
   
-Ce projet est une application web réalisée en PHP permettant la gestion des matériels au sein d'une université. Elle propose trois niveaux d'accès : Admin, Professeur, et Étudiant. Chaque rôle a des fonctionnalités spécifiques pour gérer les demandes de matériel et suivre les emprunts.
 
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/91939924-27b1-457f-83ca-9f915b7f02e5">
 

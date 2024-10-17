@@ -1,10 +1,11 @@
 # Gestion des Matériels Universitaires
 
 * Description
+  
 Ce projet est une application web réalisée en PHP permettant la gestion des matériels au sein d'une université. Elle propose trois niveaux d'accès : Admin, Professeur, et Étudiant. Chaque rôle a des fonctionnalités spécifiques pour gérer les demandes de matériel et suivre les emprunts.
 
 Fonctionnalités principales :
-Accès administrateur :
+* Accès administrateur :
 
 Gestion des demandes : L'administrateur peut approuver ou rejeter les demandes de matériels.
 Gestion des professeurs : L'administrateur peut ajouter, modifier ou supprimer des comptes de professeur.

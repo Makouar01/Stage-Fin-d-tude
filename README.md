@@ -42,12 +42,6 @@ L'admin peut gérer les comptes des utilisateurs. Il peut les ajouter, modifier 
 Suivi des emprunts :
 
 L'admin peut voir une liste des matériels empruntés par les utilisateurs. Cette liste affiche les informations sur l'utilisateur, le matériel, la date de début et de fin de l'emprunt, ainsi que son statut.
-Importation CSV des étudiants :
-
-L'admin peut importer un fichier CSV pour ajouter plusieurs étudiants à la fois. Le système lit le fichier, extrait les données, et les enregistre dans la base de données.
-Génération de rapports PDF :
-
-Un bouton "Générer PDF" permet de créer un rapport contenant tous les emprunts effectués sur une période donnée. Le fichier PDF est téléchargeable et peut être utilisé à des fins administratives.
 
 
 
@@ -69,6 +63,9 @@ Emprunt de matériel : Les étudiants peuvent faire des demandes d'emprunt de ma
 
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/aad2dcf0-a7e9-4461-9cc3-d9421335c25c">
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/8bf20586-2b9a-4b93-8d6d-c94cdb4a4c58">
+* Fonctionnalités supplémentaires
+Import CSV : Le fichier CSV doit être formaté correctement pour que l'importation réussisse. Assurez-vous que les colonnes correspondent aux champs requis dans la base de données.
+Génération PDF : Un bouton est disponible pour générer un rapport des emprunts en format PDF, trié par date et par utilisateur.
 
 
 
